@@ -45,3 +45,19 @@ header{
     border: 1px solid black;
 }
 /* fine main */
+
+/* inizio footer */
+footer{
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col-info, .col-social{
+    width: 50%;
+    height: 50px;
+    border: 1px solid white;
+}
