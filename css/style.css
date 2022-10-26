@@ -3,3 +3,35 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* utils */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+}
+
+/* inizio header */
+header{
+    background-color: orange;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.col-categories, .col-shop{
+    width: 25%;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.col-logo{
+    width: 50%;
+    height: 50px;
+    border: 1px solid black;
+}
