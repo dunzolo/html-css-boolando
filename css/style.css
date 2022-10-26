@@ -13,6 +13,7 @@
 .row{
     width: 100%;
     display: flex;
+    margin: 20px 0;
     /* align-items: center; */
 }
 
@@ -35,3 +36,12 @@ header{
     height: 50px;
     border: 1px solid black;
 }
+/* fine header */
+
+/* inizio main */
+.col-33{
+    width: calc(100% / 3);
+    height: 400px;
+    border: 1px solid black;
+}
+/* fine main */
