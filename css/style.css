@@ -100,6 +100,15 @@ li{
     left: 0;
 }
 
+.heart{
+    position: absolute;
+    background-color: white;
+    color: black;
+    top: 10px;
+    right: 0;
+    padding: 15px;
+}
+
 /* fine main */
 
 /* inizio footer */
