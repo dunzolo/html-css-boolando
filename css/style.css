@@ -13,8 +13,20 @@
 .row{
     width: 100%;
     display: flex;
+    align-items: center;
     margin: 20px 0;
-    /* align-items: center; */
+}
+
+.col-25{
+    width: 25%;
+    /* height: 50px;
+    border: 1px solid red; */
+}
+
+.col-50{
+    width: 50%;
+    /* height: 50px;
+    border: 1px solid red; */
 }
 
 /* inizio header */
@@ -23,19 +35,34 @@ header{
     height: 80px;
     display: flex;
     align-items: center;
+    color: white;
 }
 
-.col-categories, .col-shop{
-    width: 25%;
-    height: 50px;
-    border: 1px solid black;
+.inline-list{
+    list-style-type: none;
+    display: flex;
 }
 
-.col-logo{
-    width: 50%;
-    height: 50px;
-    border: 1px solid black;
+li{
+    padding: 5px;
 }
+
+.logo{
+    text-align: center;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.user{
+    text-align: right;
+}
+
+.user i{
+    padding: 0px 5px;
+}
+
 /* fine header */
 
 /* inizio main */
@@ -54,10 +81,4 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.col-info, .col-social{
-    width: 50%;
-    height: 50px;
-    border: 1px solid white;
 }
