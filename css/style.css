@@ -88,16 +88,19 @@ li{
     background-color: red;
     left: 0;
     bottom: 100px;
+    z-index: 2;
 }
 
 .green{
     background-color: green;
     left: 50px;
     bottom: 100px;
+    z-index: 2;
 }
 
 .position-left{
     left: 0;
+    z-index: 2;
 }
 
 .heart{
@@ -107,6 +110,18 @@ li{
     top: 10px;
     right: 0;
     padding: 15px;
+    z-index: 2;
+}
+
+.overlay{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    opacity: 0;
+}
+
+.overlay:hover{
+    opacity: 1;
 }
 
 /* fine main */
