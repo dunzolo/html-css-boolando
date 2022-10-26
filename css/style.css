@@ -75,6 +75,31 @@ li{
     width: 100%;
 }
 
+.label{
+    /* width: 50px; */
+    font-size: 12px;
+    padding: 3px 10px;
+    text-align: center;
+    position: absolute;
+    color: white;
+}
+
+.red{
+    background-color: red;
+    left: 0;
+    bottom: 100px;
+}
+
+.green{
+    background-color: green;
+    left: 50px;
+    bottom: 100px;
+}
+
+.position-left{
+    left: 0;
+}
+
 /* fine main */
 
 /* inizio footer */
