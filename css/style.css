@@ -25,6 +25,10 @@
     width: 50%;
 }
 
+.padding-left-10{
+    padding-left:10px;
+}
+
 /* inizio header */
 header{
     background-color: orange;
@@ -37,6 +41,7 @@ header{
 .inline-list{
     list-style-type: none;
     display: flex;
+    padding: 0px 5px;
 }
 
 li{
@@ -134,4 +139,12 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.social{
+    float: right;
+}
+
+footer li{
+    font-size: 12px;
 }
