@@ -14,7 +14,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    margin: 20px 0;
+    /* margin: 20px 0; */
 }
 
 .col-25{
@@ -29,13 +29,25 @@
     padding-left:10px;
 }
 
+.padding-vertical-20{
+    padding: 20px 0px;
+}
+
 /* inizio header */
 header{
-    background-color: orange;
-    height: 80px;
+    height: 60px;
+    color: white;
+}
+
+.fixed{
+    background-color:darkorange;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 3;
     display: flex;
     align-items: center;
-    color: white;
 }
 
 .inline-list{
@@ -48,6 +60,11 @@ li{
     padding: 5px;
 }
 
+.categories{
+    font-size: 18px;
+    font-weight: 600;
+}
+
 .logo{
     text-align: center;
 }
@@ -57,7 +74,7 @@ li{
 }
 
 .user{
-    text-align: right;
+    float: right;
 }
 
 .user i{
@@ -148,3 +165,4 @@ footer{
 footer li{
     font-size: 12px;
 }
+/* fine footer */
