@@ -135,15 +135,20 @@ li{
     z-index: 2;
 }
 
-.overlay-img{
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    opacity: 0;
+.main-img{
+    display: block;
 }
 
-.overlay-img:hover{
-    opacity: 1;
+.card-image:hover .main-img{
+    display: none;
+}
+
+.card-image:hover .secondary-img{
+    display: block;
+}
+
+.secondary-img{
+    display: none;
 }
 
 .brand{
@@ -190,5 +195,4 @@ footer li{
 
 .heart:hover{
     color: red;
-    /* opacity: 1; */
 }
